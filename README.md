@@ -76,10 +76,10 @@ Workflow
 * Navigate your terminal to the DEV folder
 * Make changes as seen fit to DEV folder contents
 * Review your changes on your dev site
-* Add your changes to git with 
-* When satisfied with your changes commit your changes to your repo with *git commit*
+* Add your files to git with **git add file-name**
+* When satisfied with your changes commit your changes to your repo with **git commit**
 * Push your changes to your local origin repo with **git push origin branch-name**
-* Stop Shopify Theme Sync by CTRL+C in terminal it's running
+* Stop Shopify Theme Sync by **CTRL+C** in terminal it's running
 * Restart Shopify Theme Sync with **shopify-sync-theme.sh --live** to begin syncing to your live server
 * Navigate your terminal to the LIVE folder
 * Pull your changes to this repo with **git pull origin branch-name** and Shopify Theme Sync will sync changes to your live server
