@@ -1,4 +1,4 @@
-Shopify-Theme-Sync
+Shopify-Sync-Theme
 ==================
 
 My setup for using the shopify theme sync tool found at github.com/davidmurdoch/shopify-theme-sync. The point of this script is to enable the use of git with shopify theme development. If you make a repo of your theme and then clone it to a DEV folder and a LIVE folder you can then target those folders with this script which will use Shopify Theme Sync to watch for changes to the theme and sync them with your dev or live server depending on which mode you're in. This allows for one to use git for branches and commits while developing a shopify theme on a dev store. When you are happy with the results push your changes to your repo, then set this script to live mode and pull your changes into your LIVE version which will then sync file changes to your LIVE server allowing you to have git like functionality while working with Shopify's mess of a system.
